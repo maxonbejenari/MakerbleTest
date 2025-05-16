@@ -36,7 +36,7 @@
 
 5. **Run the application**
    ```bash
-   go run main.go
+   go run cmd/main.go
    ```
 
 ## Endpoints
