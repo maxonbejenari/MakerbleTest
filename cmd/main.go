@@ -16,8 +16,6 @@ func main() {
 	database.ConnectDB()
 
 	r := gin.Default()
-	// we will need cors when we add FrontEnd
-	r.Use(middleware.CORSMiddleware())
 
 	api := r.Group("/api")
 	{
